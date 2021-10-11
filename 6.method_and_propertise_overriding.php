@@ -1,7 +1,5 @@
 <?php
 
-use derived as GlobalDerived;
-
 class base {
         public $name = "Parent Class";
 
