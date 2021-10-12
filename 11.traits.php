@@ -1,16 +1,16 @@
 <?php
 
     trait hello{
-        public function sayhello(){
+        public function sayhello() {
             echo "Hello everyone <br>";
         }
-        public function sayhi(){
+        public function sayhi() {
             echo "Hi everyone <br>";
         }
     }
 
     trait bye{
-        public function saybye(){
+        public function saybye() {
             echo "Bye bye everyone <br>";
         }
     }
