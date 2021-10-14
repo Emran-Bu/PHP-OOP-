@@ -1,8 +1,8 @@
 <?php
 
     class student {
-        public $course;
-        public $ID;
+        public $course = "PHP";
+        public $ID = 101;
         private $first_name;
         private $last_name;
 
