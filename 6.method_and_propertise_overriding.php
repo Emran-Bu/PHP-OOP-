@@ -8,13 +8,13 @@ class base {
         }
     }
 
-    class derived extends base {
-        public $name = "Child Class";
+class derived extends base {
+    public $name = "Child Class";
 
-        public function show ($a, $b) {
-            return $a + $b;
-        }
+    public function show ($a, $b) {
+        return $a + $b;
     }
+}
 
     $test = new derived();
     echo $test->show(5, 10);
